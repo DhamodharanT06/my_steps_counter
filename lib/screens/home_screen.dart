@@ -34,7 +34,6 @@ class HomeScreen extends StatelessWidget {
           final showBanner =
               c.permission == MotionPermission.denied ||
               c.permission == MotionPermission.permanentlyDenied;
-
           return ListView(
             physics: BouncingScrollPhysics(),
             padding: EdgeInsets.fromLTRB(20, 12, 20, 24),

@@ -314,7 +314,7 @@ class _FaqTileState extends State<_FaqTile> with AutomaticKeepAliveClientMixin {
                       : Padding(
                         padding: EdgeInsets.only(left: 38),
                         child: SizedBox(
-                          height: 34,
+                          height: 45,
                           child: OutlinedButton.icon(
                             onPressed: _loadingAd ? null : _reveal,
                             icon:
